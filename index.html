@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>Արկադի և Արփի · 01.12.2026</title>
+  <meta name="description" content="Արկադիի և Արփիի հարսանեկան հրավիրատոմս">
+  <script>document.documentElement.className += " js";</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 1. Շապիկ ===== -->
+  <header class="hero" id="hero">
+
+    <!-- Շարժվող մետաքսե ֆոն -->
+    <div class="silk" aria-hidden="true" data-src="img/silk.jpg">
+      <img class="silk__fallback" src="img/silk.jpg" alt="">
+      <canvas class="silk__canvas"></canvas>
+      <span class="silk__sheen"></span>
+    </div>
+
+    <div class="stage">
+
+      <h1 class="names" aria-label="Արկադի և Արփի">
+        <img class="names__part names__part--1" src="img/name-arkadi.png" alt="Արկադի">
+        <img class="names__part names__part--2" src="img/name-and.png" alt="և">
+        <img class="names__part names__part--3" src="img/name-arpi.png" alt="Արփի">
+      </h1>
+
+      <div class="hands" role="img" aria-label="Մատանու փոխանակում">
+        <img class="hands__hand hands__hand--left"  src="img/hand-left.png"  alt="">
+        <img class="hands__hand hands__hand--right" src="img/hand-right.png" alt="">
+      </div>
+
+      <time class="date" datetime="2026-12-01">01.12.26</time>
+
+    </div>
+  </header>
+
+  <!-- ===== 2. Վիդեո ===== -->
+  <section class="film" id="film" aria-label="Վիդեո">
+    <div class="film__frame">
+      <video class="film__video" autoplay muted loop playsinline preload="auto" poster="img/video-poster.jpg"
+             disablepictureinpicture disableremoteplayback controlslist="nodownload noremoteplayback" x-webkit-airplay="deny">
+        <!-- ֆորմատը՝ .MOV (H.264 + AAC). type-ը դիտմամբ չկա՝ որ iPhone-ն էլ, Android-ն էլ փորձեն նվագարկել -->
+        <source src="video/invitation.mov">
+      </video>
+
+      <!-- ձայնի (երգի) կոճակ -->
+      <button class="film__sound" type="button" aria-label="Միացնել ձայնը (երգ)" aria-pressed="false">
+        <svg class="ico-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9l5 6M21 9l-5 6" fill="none" stroke-linecap="round"/></svg>
+        <svg class="ico-on"  viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 8.5a5 5 0 010 7M18.5 6a8.5 8.5 0 010 12" fill="none" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ===== 3. Սիրելի՛ հյուր ===== -->
+  <section class="hello" id="hello" aria-labelledby="hello-title">
+
+    <div class="silk silk--full" aria-hidden="true" data-src="img/silk2.jpg">
+      <img class="silk__fallback" src="img/silk2.jpg" alt="">
+      <canvas class="silk__canvas"></canvas>
+      <span class="silk__sheen"></span>
+    </div>
+
+    <div class="hello__stage">
+      <div class="hello__pad">
+
+      <header class="hello__head">
+        <h2 class="hello__title" id="hello-title">
+          <span class="hello__dear">Սիրելի՛</span>
+          <img class="hello__guest" src="img/guest-script.png" alt="հյուր">
+        </h2>
+      </header>
+
+      <span class="sp sp--1" aria-hidden="true"></span>
+
+      <p class="hello__text">
+        <span class="ln" style="--i:0">Սիրո, հավատի ու վստահության այն</span>
+        <span class="ln" style="--i:1">մեծ զգացումով, որով կառուցում ենք</span>
+        <span class="ln" style="--i:2">մեր ապագա ընտանիքը,</span>
+        <span class="ln" style="--i:3">հրավիրում ենք ձեզ դառնալու</span>
+        <span class="ln" style="--i:4">մեր հարսանեկան տոնի ականատեսն</span>
+        <span class="ln" style="--i:5">ու թանկագին հյուրը։</span>
+        <span class="ln" style="--i:6">Թող այս օրը սկիզբ դառնա մեր նոր կյանքի,</span>
+        <span class="ln" style="--i:7">որի ուրախությունը ցանկանում ենք</span>
+        <span class="ln" style="--i:8">կիսել մեր ամենամոտ ու հարազատ</span>
+        <span class="ln" style="--i:9">մարդկանց հետ։</span>
+      </p>
+
+      <span class="sp sp--2" aria-hidden="true"></span>
+
+      <div class="hello__date">
+        <div class="hello__month">ԴԵԿՏԵՄԲԵՐ</div>
+        <ol class="cal" aria-label="Դեկտեմբերի 1-ից 7-ը">
+          <li class="cal__d cal__d--on" style="--i:0">
+            <img class="cal__heart" src="img/heart.png" alt="">
+            <time datetime="2026-12-01">01</time>
+          </li>
+          <li class="cal__d" style="--i:1"><time datetime="2026-12-02">02</time></li>
+          <li class="cal__d" style="--i:2"><time datetime="2026-12-03">03</time></li>
+          <li class="cal__d" style="--i:3"><time datetime="2026-12-04">04</time></li>
+          <li class="cal__d" style="--i:4"><time datetime="2026-12-05">05</time></li>
+          <li class="cal__d" style="--i:5"><time datetime="2026-12-06">06</time></li>
+          <li class="cal__d" style="--i:6"><time datetime="2026-12-07">07</time></li>
+        </ol>
+      </div>
+
+          </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. Ուղին / օրվա ընթացքը ===== -->
+  <section class="route" id="route" aria-label="Օրվա ընթացքը">
+
+    <div class="silk silk--full" aria-hidden="true" data-src="img/silk3.jpg" data-ax="0.12" data-ay="0.9">
+      <img class="silk__fallback" src="img/silk3.jpg" alt="">
+      <canvas class="silk__canvas"></canvas>
+      <span class="silk__sheen"></span>
+    </div>
+
+    <div class="route__board" id="route-board">
+
+      <!-- կետագծեր (կառուցվում են JS-ով, կապված են սքրոլին) -->
+      <svg class="trail trail--1" aria-hidden="true" focusable="false" data-trail="1"></svg>
+      <svg class="trail trail--2" aria-hidden="true" focusable="false" data-trail="2"></svg>
+
+      <!-- 1. Հարսի տուն -->
+      <article class="stop stop--1 rv" data-path="0" data-at="0" data-href="https://maps.app.goo.gl/HwMuJMuMQhMA4GD96">
+        <img class="stop__icon stop__icon--1" src="img/icon-house.png" alt="">
+        <div class="stop__txt stop__txt--1">
+          <span class="stop__name">Հարսի տուն</span>
+          <a class="stop__link" href="https://maps.app.goo.gl/HwMuJMuMQhMA4GD96" data-place="bride-house">(Վայոց Ձոր, գյուղ Մարտիրոս)</a>
+          <time class="stop__time">11:30</time>
+        </div>
+      </article>
+
+      <img class="pi pi--tree rv" src="img/icon-tree.png" alt="" data-path="1" data-at="0.566">
+
+      <!-- 2. Եկեղեցի -->
+      <article class="stop stop--2 rv" data-path="1" data-at="0.97" data-href="church.html">
+        <img class="stop__icon stop__icon--2" src="img/icon-church.png" alt="">
+        <div class="stop__txt stop__txt--2">
+          <span class="stop__name">Մարտունի գյուղ Վաղաշեն</span>
+          <a class="stop__link" href="church.html" data-place="church">(Մարտունի գյուղ Վաղաշեն)</a>
+          <time class="stop__time">15:30</time>
+        </div>
+      </article>
+
+      <img class="pi pi--heart rv" src="img/icon-heart.png" alt="" data-path="2" data-at="0.237">
+      <img class="pi pi--car rv"   src="img/icon-car.png"   alt="" data-path="2" data-at="0.507">
+
+      <!-- 3. Ռեստորան -->
+      <article class="stop stop--3 rv" data-path="2" data-at="0.97" data-href="venue.html">
+        <img class="stop__icon stop__icon--3" src="img/icon-venue.png" alt="">
+        <div class="stop__txt stop__txt--3">
+          <span class="stop__name">Մեծ Հայք</span>
+          <a class="stop__link" href="venue.html" data-place="venue">(Մարտունի, Վայք)</a>
+          <time class="stop__time">17:30</time>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== 5. Հաստատում · love · QR · մատանիներ ===== -->
+  <section class="rsvp" id="rsvp" aria-label="Ներկայության հաստատում">
+    <div class="rsvp__in">
+
+    <div class="rg rsvp__top">
+      <p class="rsvp__lead rv5" style="--d:0s">
+        <span class="ln">Ձեր ներկայությունը մեր հարսանեկան օրը</span>
+        <span class="ln">մեզ համար մեծագույն նվերն է։</span>
+        <span class="ln">Խնդրում ենք հաստատել Ձեր ներկայությունը</span>
+        <span class="ln">մինչև 15 նոյեմբերի։</span>
+      </p>
+
+
+      <p class="rsvp__wait rv5" style="--d:.9s">ՍՊԱՍՈՒՄ ԵՆՔ ՁԵԶ</p>
+      <hr class="rsvp__rule" aria-hidden="true">
+    </div>
+
+    <div class="rg memo-wrap">
+      <div class="memo">
+        <figure class="love" id="love" title="love">
+          <img class="love__img" src="img/love-ink.png" alt="love">
+          <canvas class="love__cv" width="1017" height="471" aria-hidden="true"></canvas>
+        </figure>
+        <div class="memo__tools">
+          <img class="camera rv5" src="img/camera.png" alt="" style="--d:.5s">
+          <a class="qr rv5" href="https://drive.google.com/drive/folders/1j6lIBygiq0WbVjG7d5SqVf9CQH-M5ubP?usp=sharing" target="_blank" rel="noopener" data-place="photos" aria-label="Լուսանկարների վերբեռնում (QR կոդ)" style="--d:.8s">
+            <img src="img/qr.svg" alt="QR կոդ">
+          </a>
+        </div>
+      </div>
+      <p class="rsvp__memo rv5" style="--d:1.3s">
+        <span class="rsvp__caps">ՄԻԱՍԻՆ ՀԱՎԱՔԵՆՔ ՄԵՐ ՕՐՎԱ ՀՈՒՇԵՐԸ</span>
+        <span class="rsvp__sub">սկանավորեք կոդը և վերբեռնեք ձեր արած բոլոր լուսանկարները</span>
+      </p>
+    </div>
+
+    <div class="rg foot">
+      <div class="foot__row">
+        <span class="foot__line foot__line--l"></span>
+        <span class="foot__line foot__line--r"></span>
+        <img class="foot__ring foot__ring--l" src="img/ring-left.png"  alt="">
+        <img class="foot__ring foot__ring--r" src="img/ring-right.png" alt="">
+      </div>
+      <img class="foot__names rv5" src="img/names-small.png" alt="Արկադի և Արփի" style="--d:2.1s">
+    </div>
+
+      </div>
+
+  </section>
+
+  <!-- Հաջորդ բաժինները կավելացվեն այստեղ -->
+
+  <script src="js/cq.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
